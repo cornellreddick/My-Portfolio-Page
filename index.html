@@ -10,19 +10,63 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
 
   <body>
     <div id="slides">
+      <div class="overlay"></div>
+
       <div class="slides-container">
-        <img src="https://via.placeholder.com/350x150" alt="" />
-        <img src="https://via.placeholder.com/350x150" alt="" />
+        <img src="img/slide1.jpg" alt="" />
+        <img src="img/slide2.jpg" alt="" />
+        <img src="img/slide3.jpg" alt="" />
+      </div>
+
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">Cornell Reddick</p>
+          <P class="sub typed"></P>
+        </div>
+      </div>
+
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="previous"></a>
+      </nav>
+    </div>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="aboutImage" src="img/jb.jpg" />
+          </div>
+          <div class="col-md-7">
+            <h4>My name is Cornell Reddick</h4>
+
+            <p>
+              IT Professional with a very diverse background. I have 15 years of
+              management experience. I'm always learning and continuously
+              building skills programming in C#, Javascript, ASP.NET, MVC, and
+              integrating Azure and SQL into my applications. I'm currently
+              building my knowledge in Javascript with active form manipulation
+              and working with Knockout. I spend a lot of time in SQL querying
+              data and focusing on customers relationships troubleshooting
+              problems with technology. I have an exceptional understanding of
+              how to communicate across multiple organization levels, organize
+              and manage projects while building healthy and productive
+              relationships with product consumers.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
     <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/typed.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
