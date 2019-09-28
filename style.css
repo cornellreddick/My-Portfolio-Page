@@ -75,6 +75,11 @@
   color: #fff;
 }
 
+.contactSection {
+  background-color: #2f3640;
+  color: #fff;
+}
+
 .skill{
   text-align: center;
   margin-left: 10px;
@@ -160,4 +165,79 @@ left: 0px;
     font-size: 45px;
     margin-left: -20%;
     color: #444;
+}
+
+.contactButton {
+      color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #e1b12c;
+    border-radius: 2px;
+}
+
+.contactButton:hover {
+  text-decoration: none;
+  color: #e1b12c;
+  background-color: #fff;
+
+}
+
+.filter a {
+  color: #444;
+  border: 1px solid #e1b12c;
+  padding: 10px 18px;
+  display: block;
+  
+}
+
+.filter li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.filter .current {
+  background-color: #444;
+  border-color: #e1b12c;
+  color: #e1b12c;
+}
+
+.filter {
+  text-align: center;
+  width: 100%;
+}
+
+.section .heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.items li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.itemsContainer{
+  width: 100%;
+}
+
+.items li img {
+  width: 100%;
+}
+
+.items .item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.icons {
+  position: obsolute;
+  width: 90px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  marigin: -20px auto 0 -47px;
+  text-align: center;
 }
